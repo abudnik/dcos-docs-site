@@ -24,13 +24,13 @@ Edge-LB can be deployed on any node. Its typically deployed on Public nodes for 
 As a public Load Balancer, it can provide outbound connections for containers running on DC/OS cluster by translating their Private IP addresses to Public IP addresses.
 
 Edge-LB can be used to: 
-	Load-balance incoming internet traffic to the containers through public loadbalancer
-	Load-balance traffics across containers inside DC/OS cluster, its known as Internal load balancer
-	Provide outbound connectivity for containers inside the DC/OS cluster by using a Public load Balancer
+- Load-balance incoming internet traffic to the containers through public loadbalancer
+- Load-balance traffics across containers inside DC/OS cluster, its known as Internal load balancer
+- Provide outbound connectivity for containers inside the DC/OS cluster by using a Public load Balancer
   
 ## Key components of the Edge-LB architecture
 
-Edge-LB has three core architectural components:
+Edge-LB has two core architectural components:
 - The [Edge-LB API server](#edge-lb-api-server).
 - One or more [Edge-LB pool](#edge-lb-pool).
 
